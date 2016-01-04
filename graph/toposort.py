@@ -65,7 +65,7 @@ def main():
     graph.add_edge(5,6)
     """
     """
-    
+     
     graph.add_edge(0,1)
     graph.add_edge(0,3)
     graph.add_edge(1,2)
@@ -83,8 +83,7 @@ def main():
     graph.add_edge(2,3)
     graph.add_edge(3,1)
     vertices = graph.vertices()
-    #graph.print_adjacents()
-    #print(vertices)
+    
     for v in vertices:
      if v not in visited:
         _toposort(v,visited, graph.adjacents,stack)
