@@ -84,10 +84,10 @@ def main():
     graph.add_edge(2,3)
     graph.add_edge(3,1)
     """
-    graph.add_edge(1,2)
-    graph.add_edge(2,3)
-    graph.add_edge(3,4)
-    graph.add_edge(4,5)
+    graph.add_edge('a','a')
+    graph.add_edge('b', 'd')
+    graph.add_edge('c','c')
+    
     vertices = graph.vertices()
     
     for v in vertices:
